@@ -16,6 +16,6 @@ The [Twitter Dataset on Keglle](https://www.kaggle.com/arkhoshghalb/twitter-sent
 
 ***
   
-A **Naive Bayes** classification model is used to classify and predict sentiment on test data with an Accuracy of : 
+A **Naive Bayes** classification model is used to classify and predict sentiment on test data with an Accuracy of : 0.97
 
 ![Project Structure](project_structure.png)

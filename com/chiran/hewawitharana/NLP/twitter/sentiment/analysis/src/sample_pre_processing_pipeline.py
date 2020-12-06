@@ -32,4 +32,8 @@ print(Test_punc_removed_join_clean) # Only important (no so common) words are le
 # PERFORM COUNT VECTORIZATION (TOKENIZATION)
 
 sample_data = ['This is the first paper.','This document is the second paper.','And this is the third one.','Is this the first paper?']
+vectorizer = CountVectorizer()
+X = vectorizer.fit_transform(sample_data)
 
+print(vectorizer.get_feature_names())
+print(X.toarray())
